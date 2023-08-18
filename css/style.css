@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #28a745;
+}
+
+.logo-navbar {
+  width: 120px;
+}
+
+.precio-oferta {
+  color: #28a745;
+}
+
+.formulario-contacto {
+  background-color: #28a745;
+}
+
+.footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#boton-enviar {
+  background-color: #28a745;
+}
+
+.logo-footer {
+  width: 120px;
+}
+
+@media (max-width: 767px) {
+  .logo-navbar {
+    width: 86px;
+    height: 25px;
+  }
+  .navbar-toggler {
+    width: 59px;
+    height: 42px;
+    margin: 4px 0px;
+  }
+  .logo-footer {
+    width: 82px;
+    height: 24px;
+  }
+}
